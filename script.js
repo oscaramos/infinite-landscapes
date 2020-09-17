@@ -5,7 +5,8 @@ const loader = document.getElementById('loader')
 async function fetchPhotosArray(count) {
   // Api key not hidden because it's free!
   const ACCESS_KEY = 'xRF2L0bh5b3lJxL8LNav1jEpXWBaSxmB5fGhs9IMe2I'
-  const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${ACCESS_KEY}&count=${count}`
+  const collectionLandscape = '827743'
+  const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${ACCESS_KEY}&count=${count}&collections=${collectionLandscape}`
   const response = await fetch(apiUrl)
   return await response.json()
 }
@@ -57,7 +58,7 @@ function displayPhotos(photosArray) {
 let allImagesAreLoaded = false
 
 // initial count is for faster initial page loading
-const initialCount = 5
+const initialCount = 15
 const normalCount = 30
 let photosToFetchCount = initialCount
 let isInitialLoad = true

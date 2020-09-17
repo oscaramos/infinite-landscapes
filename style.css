@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
 
 html {
     box-sizing: border-box;
@@ -6,16 +6,16 @@ html {
 
 body {
     margin: 0;
-    font-family: Bebas Neue, sans-serif;
+    font-family: 'Oxygen', sans-serif;
     background: whitesmoke;
 }
 
 h1 {
     text-align: center;
     margin-top: 25px;
-    margin-bottom: 15px;
-    font-size: 40px;
-    letter-spacing: 5px;
+    margin-bottom: 25px;
+    font-size: 45px;
+    letter-spacing: 4px;
 }
 
 /* Loader */
@@ -39,21 +39,46 @@ h1 {
 /* Image Container */
 
 .image-container {
-    margin: 10px 30%;
+    margin: 10px 5%;
+    columns: 3;
+    column-gap: 40px;
 }
 
 .image-container img {
     width: 100%;
     margin-top: 5px;
+    border-radius: 5px;
 }
 
-/* Media Query: Large Smartphone*/
+/* Media Query: PC */
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1920px) {
     h1 {
-        font-size: 20px;
+        font-size: 40px;
     }
 
+    .image-container {
+        columns: 2;
+        column-gap: 30px;
+    }
+}
+
+/* Media Query: Tablet */
+
+@media screen and (max-width: 1280px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .image-container {
+        columns: 1;
+        column-gap: 20px;
+    }
+}
+
+/* Media Query: Large Smartphone */
+
+@media screen and (max-width: 600px) {
     .image-container {
         margin: 10px;
     }
