@@ -1,6 +1,6 @@
 # Infinity Landscapes 🏞️
 
-See the most beautiful landscapes in the world with this javascript app
+Contemplate the most beautiful landscapes in the world with this javascript app
 
 This project implements the infinite scroll mechanism for uninterrupted user experience
 
