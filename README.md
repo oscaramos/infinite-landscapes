@@ -11,7 +11,8 @@ This idea came out from [JavaScript Web Projects: 20 Projects to Build Your Port
 Project 2 of 20
 
 
-# Screenshots 
+# Screenshot
+
 <img src='./screenshots/Macbook%20Pro%2013.png' alt='Macbook' width='800' />
 
 # Tools
