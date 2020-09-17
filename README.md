@@ -1,4 +1,4 @@
-# Beautiful Landscapes 🏞️
+# Infinity Landscapes 🏞️
 
 See the most beautiful landscapes in the world with this javascript app
 
@@ -33,5 +33,5 @@ Project 2 of 20
 
 [Github Pages](https://oscaramos.github.io/infinity-scroll/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjA0MzU5MzldfQ==
+eyJoaXN0b3J5IjpbLTc5ODUxNTg5NCwtMTcyMDQzNTkzOV19
 -->
