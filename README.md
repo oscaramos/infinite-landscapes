@@ -21,4 +21,4 @@ Project 2 of 20
 
 # Deployment
 
-[Github Pages](https://oscaramos.github.io/infinity-landscapes/)
+[Github Pages](https://oscaramos.github.io/infinite-landscapes/)
