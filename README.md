@@ -1,4 +1,4 @@
-# Infinity Landscapes 🏞️
+# Infinite Landscapes 🏞️
 
 Contemplate the most beautiful landscapes in the world with this javascript app
 
