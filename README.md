@@ -20,7 +20,4 @@ Project 2 of 20
 
 # Deployment
 
-[Github Pages](https://oscaramos.github.io/infinity-scroll/)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODUxNTg5NCwtMTcyMDQzNTkzOV19
--->
+[Github Pages](https://oscaramos.github.io/infinity-landscapes/)
